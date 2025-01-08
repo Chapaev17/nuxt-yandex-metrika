@@ -33,7 +33,7 @@
     "release": "npm run lint && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
     "prettier": "prettier --write .",
     "lint": "eslint --fix .",
-    "prepare": "husky install"
+    "prepare": "nuxt prepare"
   },
   "publishConfig": {
     "access": "public"
