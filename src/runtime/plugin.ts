@@ -24,7 +24,7 @@ export default defineNuxtPlugin({
 				noscript: [
 					{
 						key: 'yandex-metrika-noscript',
-						innerHTML: `<div><img src="https://mc.yandex.ru/watch/${id}" style="position:absolute; left:-9999px;" alt="" />`
+						innerHTML: `<div><img src="https://mc.yandex.ru/watch/${id}" style="position:absolute; left:-9999px;" alt="" /></div>`
 					}
 				]
 			});
