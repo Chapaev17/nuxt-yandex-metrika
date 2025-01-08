@@ -33,7 +33,7 @@
     "release": "npm run lint && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
     "prettier": "prettier --write .",
     "lint": "eslint --fix .",
-    "prepare": "nuxt prepare"
+    "prepare": "nuxi prepare playground && nuxt prepare"
   },
   "publishConfig": {
     "access": "public"
